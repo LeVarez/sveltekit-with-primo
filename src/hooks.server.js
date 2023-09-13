@@ -4,7 +4,7 @@ import axios from 'axios'
 export async function handle({ resolve, event }) {
   const response = await resolve(event);
 
-  const repo = 'mateomorris/primocms.org'
+  const repo = 'levarez/primo-site-test'
 
   const allowlist = [
     'index',
